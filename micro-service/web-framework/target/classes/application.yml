@@ -1,0 +1,17 @@
+server:
+  port: 9101
+spring:
+  application:
+    name: web-framework
+  zipkin:
+     base-url: http://zipkin:9004
+     enabled: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:9000/eureka/
+  instance:
+    preferIpAddress: true
+user-security-filter:
+  default: false
+  exceptions: /home.html,/img/,/libs/
