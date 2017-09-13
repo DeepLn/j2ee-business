@@ -1,4 +1,4 @@
-*/target/*
+**/target/
 *.iml
 */.mvn/*
 */.idea/*
@@ -13,17 +13,4 @@
 *.jar
 *.class
 *.lst
-business/micro-service/dict-service/target/
-framework/gateway/target/
-business/micro-service/authorization-service/target/classes/application.yml
-business/micro-service/authorization-service/target/maven-archiver/pom.properties
-business/micro-service/mid-authorization-service/target/
-framework/dashboard/target/
-business/commons/common/target/
-business/commons/my-redis/target/
-business/commons/user-security-filter/target/
-business/micro-service/web-framework/target/
-framework/discovery/target/
-framework/turbine/target/
-framework/zipkin/target/
 *.original
