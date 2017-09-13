@@ -1,14 +1,14 @@
 server:
-  port: 9103
+  port: 19103
 spring:
   zipkin:
-    base-url: http://zipkin:9004
+    base-url: http://zipkin:19004
     enabled: true
   application:
     name: dict-service    # 项目名称尽量用小写
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:13306/test_data?characterEncoding=utf8
+    url: jdbc:mysql://mysql:13306/test_data?characterEncoding=utf8
     username: root
     password: 123456
   jpa:
@@ -25,7 +25,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://discovery:9000/eureka/    # 指定注册中心的地址
+      defaultZone: http://discovery:19000/eureka/    # 指定注册中心的地址
   instance:
     preferIpAddress: true
     status-page-url: http://localhost:${server.port}/swagger-ui.html

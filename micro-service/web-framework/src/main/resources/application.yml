@@ -1,15 +1,15 @@
 server:
-  port: 9101
+  port: 19101
 spring:
   application:
     name: web-framework
   zipkin:
-     base-url: http://zipkin:9004
+     base-url: http://zipkin:19004
      enabled: true
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://discovery:9000/eureka/
+      defaultZone: http://discovery:19000/eureka/
   instance:
     preferIpAddress: true
 user-security-filter:
