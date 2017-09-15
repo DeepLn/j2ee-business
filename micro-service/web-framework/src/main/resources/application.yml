@@ -6,6 +6,9 @@ spring:
   zipkin:
      base-url: http://zipkin:19004
      enabled: true
+  redis:
+    host: redis
+    port: 16379
 eureka:
   client:
     serviceUrl:

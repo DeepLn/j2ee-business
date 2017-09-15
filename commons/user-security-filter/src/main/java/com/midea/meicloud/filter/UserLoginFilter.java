@@ -22,8 +22,6 @@ import java.util.List;
 //重点
 @WebFilter(filterName = "SecurityFilter", urlPatterns = "/*")
 @Component
-@Configuration
-@EnableRedisHttpSession
 public class UserLoginFilter implements Filter {
     @Value("${user-security-filter.default}")
     private boolean default_public;

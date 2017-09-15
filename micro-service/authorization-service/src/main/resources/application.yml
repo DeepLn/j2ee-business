@@ -1,6 +1,9 @@
 server:
   port: 19102
 spring:
+  redis:
+    host: redis
+    port: 16379
   zipkin:
     base-url: http://zipkin:19004
     enabled: true
