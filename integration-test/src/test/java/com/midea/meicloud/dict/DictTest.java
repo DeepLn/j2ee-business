@@ -1,7 +1,5 @@
 package com.midea.meicloud.dict;
 
-import java.util.List;
-
 import com.midea.meicloud.RestTemplateConfig;
 import com.midea.meicloud.UserLoginHelper;
 import org.junit.Before;
